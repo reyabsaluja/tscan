@@ -1,7 +1,8 @@
-node_modules/
-.next/
-out/
-.vercel/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+backend/node_modules/
 .env
 .env.local
 .env.*.local

@@ -22,8 +22,9 @@ const inter = Inter({ subsets: ["latin"] })
 
 export default function InventoryManagement() {
   const [warehouses, setWarehouses] = useState<Warehouse[]>([
-    { id: generateId(), name: "Main Warehouse", itemCount: 0 },
-    { id: generateId(), name: "Secondary Warehouse", itemCount: 0 },
+    { id: generateId(), name: "WH-001: Main Distribution Center", itemCount: 0 },
+    { id: generateId(), name: "WH-002: West Coast Hub", itemCount: 0 },
+    { id: generateId(), name: "WH-003: East Coast Store", itemCount: 0 },
   ])
 
   const [items, setItems] = useState<InventoryItem[]>([])
