@@ -1,0 +1,5 @@
+{
+  "name": "tscan-monorepo",
+  "private": true,
+  "workspaces": ["frontend"]
+}
