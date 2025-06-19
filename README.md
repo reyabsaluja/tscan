@@ -1,56 +1,74 @@
-# TScan
+<div align="center">
+  <img alt="Logo" src="docs/tscan-v2.png" width="100" />
+  <h1><strong>TScan – Inventory Management System</strong></h1>
+  <p>Modern inventory control with real-time insights, barcode scanning, and multi-warehouse support</p>
+</div>
 
-A modern inventory management system built with Next.js and TypeScript.
+---
 
-## Project Structure
+https://github.com/user-attachments/assets/c5885a2d-654d-462c-8595-51917c199668
 
-```
-tscan/
-├── frontend/          # Next.js frontend application
-│   ├── app/          # Next.js app directory
-│   ├── components/   # React components
-│   ├── hooks/        # Custom React hooks
-│   ├── lib/          # Utility functions and types
-│   ├── public/       # Static assets
-│   ├── styles/       # CSS and styling files
-│   └── ...          # Config files (package.json, tsconfig.json, etc.)
-├── backend/          # Backend services (future)
-├── docs/             # Documentation
-└── README.md         # This file
-```
+<img width="1495" alt="Screenshot 2025-06-13 at 3 53 26 PM" src="https://github.com/user-attachments/assets/3cdafa29-4138-440f-9c68-3d39d6b7d387" />
+<img width="1499" alt="Screenshot 2025-06-13 at 3 55 17 PM" src="https://github.com/user-attachments/assets/94fe19f8-7768-4607-b867-f6c6582aa96e" />
 
-## Getting Started
+## 🚀 How It Works
 
-### Frontend Development
+1. **Manage**: Create warehouses and add items with SKUs, quantities, and locations  
+2. **Scan**: Instantly scan barcodes using your device’s camera for quick item lookup or entry  
+3. **Organize**: Perform batch edits or transfer items between warehouses with ease  
+4. **Visualize**: View inventory in table, dashboard, or interactive graph formats  
+5. **Export**: One-click export to CSV or Excel for reporting and integrations  
+
+---
+
+## 🔧 Features
+
+- 📦 Multi-warehouse inventory tracking  
+- 🔍 Barcode & QR code scanning via webcam  
+- ⚙️ Batch operations for efficient updates  
+- 📊 Recharts-powered analytics dashboard  
+- 🕸️ Interactive graph view of warehouse relationships  
+- 📁 Export to CSV and Excel formats  
+- 📱 Fully responsive mobile-friendly design  
+
+---
+
+## 🛠️ Architecture
+
+- **Frontend**: Next.js 15, TypeScript, Tailwind CSS, [shadcn/ui](https://ui.shadcn.com)  
+- **Data Viz**: [Recharts](https://recharts.org/)  
+- **Camera Access**: Native Web APIs  
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+- Node.js 18+
+
+### Setup
 
 ```bash
-cd frontend
 npm install
+
 npm run dev
 ```
 
-The frontend application will be available at [http://localhost:3000](http://localhost:3000).
+#### Deployed @ [https://tscan.vercel.app/](https://tscan.vercel.app/)
 
-### Available Scripts
+## 🌐 Browser Compatibility
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run linting
+Supported on:
+- Chrome 90+  
+- Firefox 88+  
+- Safari 14+  
+- Edge 90+
 
-## Features
+> ⚠️ *Note: Camera access is required for barcode scanning.*
 
-- Modern inventory management interface
-- Barcode scanning functionality
-- Multi-warehouse support
-- Real-time inventory tracking
-- Responsive design with Tailwind CSS
-- Component library with Radix UI
+---
 
-## Tech Stack
+## 📄 License
 
-- **Frontend**: Next.js 15, React 19, TypeScript
-- **Styling**: Tailwind CSS, Radix UI
-- **Icons**: Lucide React
-- **Forms**: React Hook Form
-- **Charts**: Recharts
+MIT License
